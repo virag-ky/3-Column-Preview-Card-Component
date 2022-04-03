@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-component-ryaUq-vX9](https://www.frontendmentor.io/solutions/3-column-preview-card-component-ryaUq-vX9)
 - Live Site URL: [https://virag-ky.github.io/3-Column-Preview-Card-Component/](https://virag-ky.github.io/3-Column-Preview-Card-Component/)
 
 ## My process
