@@ -1,8 +1,9 @@
 @import url("https://fonts.google.com/specimen/Lexend+Deca");
-
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display");
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -43,4 +44,11 @@ $section-padding: 35px 45px;
   padding: 15px 30px;
   border-radius: 50px;
   border: none;
+  font-weight: 700;
+}
+
+@mixin media {
+  @media (min-width: 768px) {
+    @content;
+  }
 }
