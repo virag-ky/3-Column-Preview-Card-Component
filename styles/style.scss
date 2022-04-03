@@ -1,0 +1,102 @@
+@import "base";
+
+body {
+  padding: 100px 20px;
+  font-family: $family-1;
+  font-size: $font;
+  background-color: $base-color;
+
+  @include center;
+}
+
+main {
+
+  #section-1 {
+    background-color: $color-1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: $section-padding;
+    
+
+     h2 {
+      @include h2-style;
+      
+    }
+
+    p {
+      @include paragraph-style;
+    }
+
+    button {
+      color: $color-1;
+
+      @include button-style;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  #section-2 {
+    background-color: $color-2;
+    padding: $section-padding;
+
+    h2 {
+      @include h2-style;
+      
+    }
+
+    p {
+      @include paragraph-style;
+    }
+
+    button {
+      color: $color-2;
+
+      @include button-style;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  #section-3 {
+    background-color: $color-3;
+    padding: $section-padding;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    h2 {
+      @include h2-style;
+      
+    }
+
+    p {
+      @include paragraph-style;
+    }
+
+    button {
+      color: $color-3;
+
+      @include button-style;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}
+
+footer {
+  margin-top: 30px;
+
+  a {
+    text-decoration: none;
+    color: $color-2;
+  }
+}
