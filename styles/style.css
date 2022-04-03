@@ -97,7 +97,7 @@ main #section-1 p {
   }
 }
 
-main #section-1 button {
+main #section-1 #button-sedan {
   color: #e38826;
   background-color: #f2f2f2;
   padding: 15px 30px;
@@ -106,7 +106,7 @@ main #section-1 button {
   font-weight: 700;
 }
 
-main #section-1 button:hover {
+main #section-1 #button-sedan:hover {
   cursor: pointer;
   background-color: #e38826;
   color: #f2f2f2;
@@ -162,7 +162,7 @@ main #section-2 p {
   }
 }
 
-main #section-2button {
+main #section-2 #button-suv {
   color: #006970;
   background-color: #f2f2f2;
   padding: 15px 30px;
@@ -171,7 +171,7 @@ main #section-2button {
   font-weight: 700;
 }
 
-main #section-2button:hover {
+main #section-2 #button-suv:hover {
   cursor: pointer;
   background-color: #006970;
   color: #f2f2f2;
@@ -230,7 +230,7 @@ main #section-3 p {
   }
 }
 
-main #section-3button {
+main #section-3 #button-luxury {
   color: #004241;
   background-color: #f2f2f2;
   padding: 15px 30px;
@@ -239,7 +239,7 @@ main #section-3button {
   font-weight: 700;
 }
 
-main #section-3button:hover {
+main #section-3 #button-luxury:hover {
   cursor: pointer;
   background-color: #004241;
   color: #f2f2f2;
