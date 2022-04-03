@@ -48,7 +48,7 @@ main {
       }
     }
 
-    button {
+    #button-sedan {
       color: $color-1;
 
       @include button-style;
@@ -86,7 +86,7 @@ main {
       }
     }
 
-    &button {
+    #button-suv {
       color: $color-2;
 
       @include button-style;
@@ -128,7 +128,7 @@ main {
       }
     }
 
-    &button {
+    #button-luxury {
       color: $color-3;
 
       @include button-style;
