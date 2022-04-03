@@ -1,0 +1,54 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$color-1: hsl(31, 77%, 52%);
+$color-2: hsl(184, 100%, 22%);
+$color-3: hsl(179, 100%, 13%);
+$paragraph: hsla(0, 0%, 100%, 0.75);
+$base-color: hsl(0, 0%, 95%);
+$family-1: "Lexend Deca", sans-serif;
+$family-2: "Big Shoulders Display", sans-serif;
+$font: 1rem;
+$section-padding: 35px 45px;
+
+@mixin center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin h2-style {
+  font-family: $family-2;
+  color: $base-color;
+  font-size: 2.8rem;
+  margin: 35px 0;
+}
+
+@mixin paragraph-style {
+  color: $paragraph;
+  line-height: 1.8rem;
+  margin-bottom: 35px;
+}
+
+@mixin button-style {
+  background-color: $base-color;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+}
+
+@mixin media {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
