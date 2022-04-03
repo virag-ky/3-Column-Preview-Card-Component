@@ -30,7 +30,7 @@ Users should be able to:
 
 
 ## Desktop
-![screencapture-127-0-0-1-5500-2022-04-03-14_35_35](https://user-images.githubusercontent.com/79658534/161426331-ea567f47-6cb1-471f-b0b5-32886e393472.png)
+![screencapture-127-0-0-1-5500-2022-04-03-14_46_55](https://user-images.githubusercontent.com/79658534/161426434-e5e9138f-7fca-4b30-b935-a0e642bbf828.png)
 
 
 ### Links
